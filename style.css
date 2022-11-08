@@ -63,6 +63,18 @@
     width: 500px;
 }
 
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover {
+    filter: grayscale(.6) sepia(.7);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
